@@ -6,6 +6,7 @@ class Member
         @name = args[:name]
         @power = args[:power]
         @biography = args[:biography]
+        @@all << self
     end
 
     def self.all
